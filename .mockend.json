@@ -1,0 +1,29 @@
+{
+    "restaurants": [{
+            "id": "1",
+            "name": "Komagene",
+            "slogn": "Bana gene sana gene Komagene!"
+        },
+        {
+            "id": "2",
+            "name": "Çiğköfteci Ömer Usta",
+            "slogn": "Dünyayı saran lezzet!"
+        },
+        {
+            "id": "3",
+            "name": "Kral Çiğköfte",
+            "slogn": "Çiğköfte lezzetini bizimle yaşayın!"
+        },
+        {
+            "id": "4",
+            "name": "Oses Çiğköfte",
+            "slogn": "Oses olsa da yesek!"
+        },
+        {
+            "id": "5",
+            "name": "Çiğköftem",
+            "slogn": "En tatlı acı!"
+        }
+
+    ]
+}
