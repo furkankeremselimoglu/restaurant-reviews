@@ -1,8 +1,6 @@
-import React, { useState } from "react";
-import Form from "./components/Form";
+import React from "react";
+import { Link, Outlet } from "react-router-dom";
 import "./App.css";
-import ReviewList from "./components/ReviewList";
-import { uuid } from "uuidv4";
 
 export default function App() {
     return (
@@ -14,14 +12,11 @@ export default function App() {
                     paddingBottom: "1rem",
                 }}
             >
-                <Link to="/addgame">Add Game</Link> |{" "}
-                <Link to="/addpublisher">Add Publisher</Link> |{" "}
-                <Link to="/contact">Contact</Link> |{" "}
+                <Link to="/restaurants">Restaurants</Link> |{" "}
                 <Link to="/about">About Us</Link> |{" "}
+                <Link to="/addRestaurant">Add Restaurant</Link>
             </nav>
             <Outlet />
         </div>
     );
 }
-
-export default App;

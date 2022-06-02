@@ -2,3 +2,20 @@
     width: 20%;
     height: auto;
 }
+
+.restaurantList {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    .restaurantList {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .restaurantList {
+        grid-template-columns: auto;
+    }
+}

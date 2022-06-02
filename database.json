@@ -1,29 +1,39 @@
 {
-    "restaurants": [{
-            "id": "1",
+    "restaurants": [
+        {
             "name": "Komagene",
-            "slogn": "Bana gene sana gene Komagene!"
+            "slogan": "Bana gene sana gene Komagene!",
+            "location": "Ümraniye/İSTANBUL",
+            "reviews": ["Sipariş çok hızlı geldi.", "Açlık komasındaydım, komagene yedim ve kurtuldum.", ""],
+            "rating": 9.3
         },
         {
-            "id": "2",
             "name": "Çiğköfteci Ömer Usta",
-            "slogn": "Dünyayı saran lezzet!"
+            "slogan": "Dünyayı saran lezzet!",
+            "location": "Çekmeköy/İSTANBUL",
+            "reviews": ["Böyle bir lezzet evrende başka yerde yoktur.", "Astronot olsam uzaya giderken yanıma bundan alırdım.", ""],
+            "rating": 8.7
         },
         {
-            "id": "3",
             "name": "Kral Çiğköfte",
-            "slogn": "Çiğköfte lezzetini bizimle yaşayın!"
+            "slogan": "Çiğköfte lezzetini bizimle yaşayın!",
+            "location": "Çekmeköy/İSTANBUL",
+            "reviews": ["Kral tacı diye içine taş koymuşlar sanırım...", "Açlık komasındaydım, komagene yedim ve kurtuldum.", ""],
+            "rating": 6.5
         },
         {
-            "id": "4",
             "name": "Oses Çiğköfte",
-            "slogn": "Oses olsa da yesek!"
+            "slogan": "Oses olsa da yesek!",
+            "location": "Üsküdar/İSTANBUL",
+            "reviews": ["Bir daha söylemem, söyletmem..", "Bu fiyata daha iyi bir lezzet beklerdim.", ""],
+            "rating": 5.9
         },
         {
-            "id": "5",
             "name": "Çiğköftem",
-            "slogn": "En tatlı acı!"
+            "slogan": "En tatlı acı!",
+            "location": "Ataşehir/İSTANBUL",
+            "reviews": ["Acısı muazzamdı, sayesinde kendimi Adana'da gibi hissettim.", ""],
+            "rating": 8.9
         }
-
     ]
 }

@@ -1,39 +1,96 @@
 {
   "restaurants": [
     {
+      "id": 1,
       "name": "Komagene",
       "slogan": "Bana gene sana gene Komagene!",
       "location": "Ümraniye/İSTANBUL",
-      "reviews": ["Sipariş çok hızlı geldi.", "Açlık komasındaydım, komagene yedim ve kurtuldum.", ""],
-      "rating": 9.3
+      "openTime": "08.00",
+      "closeTime": "23.00"
     },
     {
+      "id": 2,
       "name": "Çiğköfteci Ömer Usta",
       "slogan": "Dünyayı saran lezzet!",
       "location": "Çekmeköy/İSTANBUL",
-      "reviews": ["Böyle bir lezzet evrende başka yerde yoktur.", "Astronot olsam uzaya giderken yanıma bundan alırdım.", ""],
-      "rating": 8.7
+      "openTime": "10.00",
+      "closeTime": "23.00"
     },
     {
+      "id": 3,
       "name": "Kral Çiğköfte",
       "slogan": "Çiğköfte lezzetini bizimle yaşayın!",
       "location": "Çekmeköy/İSTANBUL",
-      "reviews": ["Kral tacı diye içine taş koymuşlar sanırım...", "Açlık komasındaydım, komagene yedim ve kurtuldum.", ""],
-      "rating": 6.5
+      "openTime": "11.00",
+      "closeTime": "22.00"
     },
     {
+      "id": 4,
       "name": "Oses Çiğköfte",
       "slogan": "Oses olsa da yesek!",
       "location": "Üsküdar/İSTANBUL",
-      "reviews": ["Bir daha söylemem, söyletmem..", "Bu fiyata daha iyi bir lezzet beklerdim.", ""],
-      "rating": 5.9
+      "openTime": "08.00",
+      "closeTime": "23.00"
     },
     {
+      "id": 5,
       "name": "Çiğköftem",
       "slogan": "En tatlı acı!",
       "location": "Ataşehir/İSTANBUL",
-      "reviews": ["Acısı muazzamdı, sayesinde kendimi Adana'da gibi hissettim.", ""],
-      "rating": 8.9
+      "openTime": "06.00",
+      "closeTime": "23.59"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "restaurant_id": 1,
+      "content": "Sipariş çok hızlı geldi."
+    },
+    {
+      "id": 2,
+      "restaurant_id": 1,
+      "content": "Açlık komasındaydım, komagene yedim ve kurtuldum."
+    },
+    {
+      "id": 3,
+      "restaurant_id": 2,
+      "content": "Böyle bir lezzet evrende başka yerde yoktur."
+    },
+    {
+      "id": 4,
+      "restaurant_id": 2,
+      "content": "Astronot olsam uzaya giderken yanıma bundan alırdım."
+    },
+    {
+      "id": 5,
+      "restaurant_id": 3,
+      "content": "Kral tacı diye içine taş koymuşlar sanırım..."
+    },
+    {
+      "id": 6,
+      "restaurant_id": 3,
+      "content": "İdare eder."
+    },
+    {
+      "id": 7,
+      "restaurant_id": 4,
+      "content": "Bir daha söylemem, söyletmem.."
+    },
+    {
+      "id": 8,
+      "restaurant_id": 4,
+      "content": "Çok baharatlıydı."
+    },
+    {
+      "id": 9,
+      "restaurant_id": 5,
+      "content": "Acı seven biri olarak, acısı yerindeydi."
+    },
+    {
+      "id": 10,
+      "restaurant_id": 5,
+      "content": "Acısı muazzamdı, sayesinde kendimi Adana'da gibi hissettim."
     }
   ]
 }
