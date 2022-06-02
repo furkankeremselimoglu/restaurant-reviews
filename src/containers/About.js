@@ -1,11 +1,21 @@
-import ReviewList from '../components/ReviewList'
+import kerem from './images/kerem.jpeg'
+import melike from './images/melike.JPG.jpg'
+import selami from './images/selami.jpeg'
+import style from './css/style.css'
+
 export default function About() {
     return (
         <main style={{ padding: "1rem 0" }}>
             <h2>About</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-            </p>
-            <ReviewList />
+            <b>Team</b>
+            <p>Furkan Kerem Selimoğlu</p>
+            <p>Melike Akal</p>
+            <p>Selami Karakaş</p>
+            <div>
+                <img id="kerem" className={`aboutImg`} style={style} src={kerem} alt="Kerem" />;<img />
+                <img id="melike" className={`aboutImg`} style={style} src={melike} alt="Melike" />;<img />
+                <img id="selami" className={`aboutImg`} style={style} src={selami} alt="Selami" />;<img />
+            </div>
         </main>
     );
 }
