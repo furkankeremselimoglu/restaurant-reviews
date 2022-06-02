@@ -1,4 +1,83 @@
+**Description of the project:** The purpose of this project is to ensure that customers can leave a comment about restaurants. They will be able to see previous reviews of the restaurants and add new reviews. They will also see the name, location, and slogan of the restaurant. There is also another function to adding a new restaurant. 
 
+There are 3 pages: Restaurants page, About Us page and Add Restaurant page. 
+
+**Restaurants:** Users can see the restaurants and add comments through this page
+
+**About Us:** Users can see the project members 
+
+**Add Restaurant:** Users can add a new restaurant that requires 5 inputs: name, slogan, location, open time and close time.
+
+**Instructions for Running the Project:**
+
+To use this app **firstly**, FakeServer should be started with the following steps:
+
+\1. Go to the FakeServer directory.
+
+\2. Open command line in that directory
+
+\3. Run the command written in the run.bat file
+
+**Secondly**, App should be started:
+
+\1. Go to the project directory
+
+\2. Open command line in that directory
+
+\3. Enter the “npm install” command
+
+\4. After the execution enter the “npm start” command
+
+The app will be open on the browser localhost:3000
+
+**Usage Scenario:** Leaving a review for a restaurant
+
+1. User goes to the main page.
+1. User sees the restaurants.
+1. User clicks to the text area of the restaurant where he/she wants to leave a comment.
+1. User types his/her comment.
+1. User clicks on the Add Comment button
+
+**Usage Scenario:** Adding a new restaurant
+
+1. User goes to the main page.
+1. User clicks the Add Restaurant button.
+1. User clicks the Add button.
+1. User enters the required information to add a new restaurant.
+1. User enters the name, slogan, location, open time and close time of the restaurant.
+1. User clicks the Add button.
+
+**User Scenario:** Checking the Contributors of the Project
+
+1. User goes to the main page.
+1. User clicks the About Us button.
+
+
+**Project Members:** Melike Akal, Furkan Kerem Selimoğlu, Selami Karakaş
+
+**Responsibilities:** All members worked on the project equally: deciding on the project template, backend, and frontend parts of the project are done by each member. Specifically:
+
+**Melike Akal:** Creating the project with React App, CSS files, “About Us” page, and writing the react components.
+
+**Furkan Kerem Selimoğlu:** Writing the react components, reactstrap, and data management.
+
+**Selami Karakaş:** Writing the database, connecting the database, and writing the react components.
+
+
+
+
+
+The technologies that are used:
+
+
+|Technology|Description|
+| :- | :-: |
+|React|Library that provides UI components|
+|Create React App|Tool for creating new react project|
+|Bootstrap|Provides responsive web design|
+|Rest API|Provides backend operations|
+|npm|<p>Package manager for node.js</p><p></p>|
+|Postman|API platform for testing|
 
 # Getting Started with Create React App
 
