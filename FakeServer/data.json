@@ -1,0 +1,34 @@
+{
+  "restaurants": [
+    {
+      "name": "Komagene",
+      "slogan": "Bana gene sana gene Komagene!",
+      "location": "Ümraniye/İSTANBUL",
+      "reviews": ["Sipariş çok hızlı geldi.", "Açlık komasındaydım, komagene yedim ve kurtuldum.", ""]
+    },
+    {
+      "name": "Çiğköfteci Ömer Usta",
+      "slogan": "Dünyayı saran lezzet!",
+      "location": "Çekmeköy/İSTANBUL",
+      "reviews": ["Böyle bir lezzet evrende başka yerde yoktur.", "Astronot olsam uzaya giderken yanıma bundan alırdım.", ""]
+    },
+    {
+      "name": "Kral Çiğköfte",
+      "slogan": "Çiğköfte lezzetini bizimle yaşayın!",
+      "location": "Çekmeköy/İSTANBUL",
+      "reviews": ["Kral tacı diye içine taş koymuşlar sanırım...", "Açlık komasındaydım, komagene yedim ve kurtuldum.", ""]
+    },
+    {
+      "name": "Oses Çiğköfte",
+      "slogan": "Oses olsa da yesek!",
+      "location": "Üsküdar/İSTANBUL",
+      "reviews": ["Bir daha söylemem, söyletmem..", "Bu fiyata daha iyi bir lezzet beklerdim.", ""]
+    },
+    {
+      "name": "Çiğköftem",
+      "slogan": "En tatlı acı!",
+      "location": "Ataşehir/İSTANBUL",
+      "reviews": ["Acısı muazzamdı, sayesinde kendimi Adana'da gibi hissettim.", ""]
+    }
+  ]
+}

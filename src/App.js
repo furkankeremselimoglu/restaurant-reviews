@@ -4,28 +4,22 @@ import "./App.css";
 import ReviewList from "./components/ReviewList";
 import { uuid } from "uuidv4";
 
-function App() {
-    const [reviews, setReviews] = useState([]);
-    const [form, setForm] = useState({ restaurant: "", review: "", id: uuid() });
-    const [editing, setEditing] = useState(false);
-
+export default function App() {
     return (
-        <div className="app">
+        <div>
             <h1>Restaurant Reviews</h1>
-            <Form
-                editing={editing}
-                form={form}
-                reviews={reviews}
-                setEditing={setEditing}
-                setForm={setForm}
-                setReviews={setReviews}
-            />
-            <ReviewList
-                reviews={reviews}
-                setForm={setForm}
-                setEditing={setEditing}
-                setReviews={setReviews}
-            />
+            <nav
+                style={{
+                    borderBottom: "solid 1px",
+                    paddingBottom: "1rem",
+                }}
+            >
+                <Link to="/addgame">Add Game</Link> |{" "}
+                <Link to="/addpublisher">Add Publisher</Link> |{" "}
+                <Link to="/contact">Contact</Link> |{" "}
+                <Link to="/about">About Us</Link> |{" "}
+            </nav>
+            <Outlet />
         </div>
     );
 }
